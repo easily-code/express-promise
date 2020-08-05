@@ -1,5 +1,5 @@
 const http = require('http');
-const reqParser = require('req-parser');
+const reqParser = require('./lib/req_parser');
 var routePro=require('./lib/rout_pro');//route
 var cookiePro=require('./lib/cookie_pro');//cookie
 var servePro=require('./lib/serve_static_pro');//serveStatic
